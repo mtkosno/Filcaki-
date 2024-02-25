@@ -2424,3 +2424,36 @@
     
     },{}]},{},[4])(4)
     });
+
+    var bar = new ProgressBar.Path('#heart-path', {
+    easing: 'easeInOut',
+    duration: 1700
+  });
+  
+  bar.set(0);
+  bar.animate(1.0);
+  const title_page=document.createElement("h1")
+  const root_element=document.getElementById("root")
+  const panda_image=document.createElement("img")
+  panda_image.src="./assets/serce.png"
+  title_page.innerText="Podaruj Filcaka i Uciesz Dzieciaka!"
+  const goToNextPage=()=>(
+    setTimeout(
+        ()=>{  
+            window.location.href=("Witaj.html")
+        ,10000 }
+    )
+  )
+  const change_image=()=>{
+   
+   setTimeout(
+         ()=>{  
+             root_element.innerHTML="" 
+             root_element.appendChild(panda_image)
+             root_element.appendChild(title_page) 
+     
+         },5000 
+         )
+         
+         }
+ change_image().then(()=>window.location.href="Witaj.html")
