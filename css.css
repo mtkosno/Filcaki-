@@ -1,0 +1,84 @@
+body,html,*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+#root
+{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #422110 ;
+    flex-direction: column;
+}
+
+h1
+{
+    font-family: "Quitcher Grypper",cursive;
+    font-weight: 700;
+    color: white;
+    line-height: 1.6;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#tło
+{
+    
+    display: flex;
+    justify-content: center;
+    height:100vh;
+    flex-direction: column;
+    text-align: center;
+}
+#obrazek
+{
+background-image: url(assets/iPhone\ 8\ Plus\ -\ 302\ \(1\).png);
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h2
+{
+    font-family: "Raleway";
+    color: black;
+    line-height: 1.6;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h3
+{
+    font-family: "Lato";
+    color: #8F9698;
+    line-height: 1.6;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+#obrazek2
+{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #422110 ;
+    flex-direction: column;
+}
+
+#container {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+  }
