@@ -1,4 +1,4 @@
-{
+export const animals = {
     "zabawki": [
       {
         "url": "assets/IMG_1579.jpg",

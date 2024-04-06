@@ -298,34 +298,6 @@ h3
     .stronagłowna{
         max-height: calc(100vh-70px);
     }
-    .container1 {
-    border-radius: 25px;
-    border: 1px solid rgba(131.74999594688416, 95.8870567381382, 69.91733506321907, 1);
-    padding: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    height: 200px;
-    width: 40%;
-    float: left;
-    margin: 60px;
-    margin-bottom: 30px;
-    }
-    .containerulu{
-        border-radius: 25px;
-        border: 1px solid rgba(131.74999594688416, 95.8870567381382, 69.91733506321907, 1);
-        padding: 20px;
-        margin-top: 20px;
-        margin-left: 30px;
-        height: 200px;
-        width: 40%;
-        float: left;
-        margin: 60px;
-        margin-bottom: 30px;
-    
-    }
-    #lewy {
-        margin-left: 70px;
-    }
     footer{
         position: fixed;
         bottom: 0;
@@ -354,53 +326,37 @@ h3
         color: #422110;
     
     }
-   
+
   
 #koniec{
     margin-bottom: 100px;
 }
-.plus{
-   float: right;
-   padding-top: 130px;
-   margin-left: 10px;
-   
-}
+
 .plusimg{
     cursor: pointer;
 }
-.cena{
-    float: right;
-    padding-top: 138px;
-    
-}
-.opisy{
-    float: left;
-    height: 10rem;
-    width: 25rem;
-    word-break: break-word;
-    position: relative;
-    margin-left: 10px;
-    
+
+.obrazek {
+    max-height: 100%;
 }
 
-.obrazek{
-    height: 100%;
-    width: auto;
-    border-radius: 25px;
-    align-items: center;
-    float: left;
-    margin-left: 0px;
+.card {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    max-height: 260px;
+    border: 1px solid #422110;
+    border-radius: 12px;
 }
 
-
-
-
-
-
-
-
-
-
+#karty {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
 
 
 
@@ -411,7 +367,7 @@ h3
   
   #tło1{
     display: flex;
-    height:100vh;
+    height: 100vh;
     flex-direction: column;
   }
   #icon1{
@@ -446,3 +402,9 @@ h3
     padding-top: 20px;
 }
   
+.cena {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
