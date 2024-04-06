@@ -2444,16 +2444,17 @@
         ,10000 }
     )
   )
-  const change_image=()=>{
-   
-   setTimeout(
-         ()=>{  
-             root_element.innerHTML="" 
-             root_element.appendChild(panda_image)
-             root_element.appendChild(title_page) 
-     
-         },5000 
-         )
-         
-         }
- change_image().then(()=>window.location.href="Witaj.html")
+  const changeImageAndRedirect = () => {
+    setTimeout(() => {
+      root_element.innerHTML = "";
+      root_element.appendChild(panda_image);
+      root_element.appendChild(title_page);
+      setTimeout(() => {
+        window.location.href = "Witaj.html";
+      }, 5000); // Przekierowanie po wyświetleniu obrazka i tytułu przez 5 sekund
+    }, 5000); // Wyświetlenie obrazka i tytułu przez 5 sekund
+  };
+
+  changeImageAndRedirect()
+
+ 

@@ -4,6 +4,7 @@
 const panda_image=document.getElementById("image")
 const title_page=document.createElement("h1")
 const root_element=document.getElementById("root")
+const button_element=document.getElementById("klikol")
 title_page.innerText="Podaruj Filcaka i Uciesz Dzieciaka!"
 const change_bar=()=>(
     setTimeout(

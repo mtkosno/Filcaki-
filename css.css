@@ -33,6 +33,7 @@ h1
     
     display: flex;
     justify-content: center;
+    align-items: center;
     height:100vh;
     flex-direction: column;
     text-align: center;
@@ -82,3 +83,366 @@ h3
     width: 200px;
     height: 200px;
   }
+
+.e318_983 { 
+	width:311px;
+    overflow:hidden;
+    justify-content: center;
+    display: flex;
+    gap:2rem;
+    
+}
+.e318_984 { 
+	color:rgba(0, 0, 0, 1);
+	width:210px;
+	height:32px;
+	font-family:Lato;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:px;
+    justify-content: center;
+    display: flex;
+}
+.e318_985 { 
+	color:rgba(0, 0, 0, 1);
+	width:151px;
+	font-family:Lato;
+	text-align:left;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:px;
+    justify-content: center;
+    display: flex;
+}
+.e318_986 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:311px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    border:1px solid rgba(178.00000458955765, 159.0000057220459, 145.00000655651093, 1);
+    justify-content: center;
+    display: flex;
+}
+
+.e318_987 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:311px;
+	
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+    border:1px solid rgba(178.00000458955765, 159.0000057220459, 145.00000655651093, 1);
+    justify-content: center;
+    display: flex;
+}
+
+
+.e318_983 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.e318_987 {
+    margin-top: 10px;
+    width: 311px;
+    height: 60px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(178.00000458955765, 159.0000057220459, 145.00000655651093, 1);
+}
+
+.e318_986 {
+    width: 311px;
+    height: 60px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(178.00000458955765, 159.0000057220459, 145.00000655651093, 1);
+}
+
+.e318_989 { 
+    margin-top: 2rem;
+	background:linear-gradient(0deg, rgba(203.00000309944153, 138.00000697374344, 88.00000235438347, 1) 0%,rgba(86.00000247359276, 43.00000123679638, 26.000000350177288, 1) 100%) ;
+	width:300px;
+    padding: 0.8rem 1.5rem;
+	border-top-left-radius:17px;
+	border-top-right-radius:17px;
+	border-bottom-left-radius:17px;
+	border-bottom-right-radius:17px;
+    cursor: pointer;
+    
+}
+
+.ei318_989_1_783 { 
+	color:rgba(255, 255, 255, 1);
+	font-family:Lato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+	font-size:18px;
+	letter-spacing:0;
+	line-height:px;
+}
+
+.button{
+    transition: 1.25s ease-out;
+
+}
+
+
+.button:hover {
+    background: antiquewhite;
+    color: black;
+}
+
+.i-phone-8-plus-303,
+.i-phone-8-plus-303 * {
+  box-sizing: border-box;
+}
+.i-phone-8-plus-303 {
+  background: #ffffff;
+  height: auto;
+  position:relative;
+}
+
+.home-search {
+  background: #f8f7fa;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #627281;
+  border-width: 1px;
+  width: 95%;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+#icon{
+    color: #627281;
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    padding-top: 13px;
+}
+.home-search::placeholder{
+    color: rgba(0, 0, 0, 0.25)
+}
+
+  .kategorie {
+    color: #000000;
+    text-align: left;
+    font-family: var(
+      --heading-h4-20px-or-24px-font-family,
+      "Lato-Bold",
+      sans-serif
+    );
+    font-size: var(--heading-h4-20px-or-24px-font-size, 20px);
+    line-height: var(--heading-h4-20px-or-24px-line-height, 24px);
+    font-weight: var(--heading-h4-20px-or-24px-font-weight, 700);
+    padding-left: 20px;
+    padding-top: 20px;
+    display: inline-block;
+   
+  }
+.klik{
+   
+      background: #ffffff ;
+      border: 1px solid rgba(131.74999594688416, 95.8870567381382, 69.91733506321907, 1);
+      border-radius: 12px;
+      color: black;
+      cursor: pointer;
+      display: inline-block;
+      font-family:Lato;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 2.0;
+      outline: transparent;
+      padding: 0 1rem;
+      text-align: center;
+      text-decoration: none;
+      transition: box-shadow .2s ease-in-out;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      white-space: nowrap;
+      margin-left: 10px;
+      margin-top: 20px;
+      width: 114px;
+    }
+    
+    .klik:not([disabled]):focus {
+      box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+      background-image:linear-gradient(0deg, rgba(203.00000309944153, 138.00000697374344, 88.00000235438347, 1) 0%,rgba(86.00000247359276, 43.00000123679638, 26.000000350177288, 1) 100%) ;
+      color: #ffffff;
+    }
+    
+    .klik:not([disabled]):hover {
+      box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+    }
+    .stronagłowna{
+        max-height: calc(100vh-70px);
+    }
+    .container1 {
+    border-radius: 25px;
+    border: 1px solid rgba(131.74999594688416, 95.8870567381382, 69.91733506321907, 1);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 200px;
+    width: 40%;
+    float: left;
+    margin: 60px;
+    margin-bottom: 30px;
+    }
+    .containerulu{
+        border-radius: 25px;
+        border: 1px solid rgba(131.74999594688416, 95.8870567381382, 69.91733506321907, 1);
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: 30px;
+        height: 200px;
+        width: 40%;
+        float: left;
+        margin: 60px;
+        margin-bottom: 30px;
+    
+    }
+    #lewy {
+        margin-left: 70px;
+    }
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 70px;
+        background-color: #F8F7FA ;
+        border-top: 0.75px solid #8F9698;
+        display: flex;
+        justify-content: center;
+    }
+    .napismenu{
+        margin: 150px ;
+        margin-top: 10px;
+        color: #627281;
+        font-size: 13px;
+        font-family: Lato;
+    }
+    .obrazekmenu{
+        height: 25px;
+        width: 25px;
+        cursor: pointer;
+        transition: box-shadow .2s ease-in-out;
+    }
+    .obrazekmenu:hover{
+        box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+        color: #422110;
+    
+    }
+   
+  
+#koniec{
+    margin-bottom: 100px;
+}
+.plus{
+   float: right;
+   padding-top: 130px;
+   margin-left: 10px;
+   
+}
+.plusimg{
+    cursor: pointer;
+}
+.cena{
+    float: right;
+    padding-top: 138px;
+    
+}
+.opisy{
+    float: left;
+    height: 10rem;
+    width: 25rem;
+    word-break: break-word;
+    position: relative;
+    margin-left: 10px;
+    
+}
+
+.obrazek{
+    height: 100%;
+    width: auto;
+    border-radius: 25px;
+    align-items: center;
+    float: left;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  #tło1{
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+  }
+  #icon1{
+    color: #627281;
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    padding-top: 89px;
+  }
+  #ulu{
+    font-family: "Raleway";
+    color: black;
+    line-height: 1.6;
+    font-style: normal;
+    font-size: 36px;
+    padding-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .e318_1299 { 
+	color:rgba(131.74999594688416, 95.8870567381382, 69.91733506321907, 1);
+	font-family:League Spartan;
+	text-align:center;
+    justify-content: center;
+    align-items: center;
+	font-size:64px;
+	letter-spacing:0;
+	line-height:px;
+    padding-top: 20px;
+}
+  
